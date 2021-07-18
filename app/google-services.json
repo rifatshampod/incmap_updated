@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630750379575",
+    "project_id": "pwd-map-ce40d",
+    "storage_bucket": "pwd-map-ce40d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630750379575:android:32ceddf8b4cfd6205a09b2",
+        "android_client_info": {
+          "package_name": "pwdmap.map.incmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630750379575-adkh72srv4ecfmo7u4h9cpnb2fuk04t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6s0SEqMwEF8ona60lz5O7G7GKNAifoCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630750379575-adkh72srv4ecfmo7u4h9cpnb2fuk04t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

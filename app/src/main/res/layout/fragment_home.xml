@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Homepage"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/access"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What do you want to look for?"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="2"
+            android:alignmentMode="alignMargins"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/blog_btn"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/blog"
+                android:text="Blog"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <TextView
+                android:id="@+id/about_btn"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/information"
+                android:text="About"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/map_btn"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/map"
+                android:text="Map"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/btn_google_maps"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/google_maps"
+                android:text="Google Map"
+
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <TextView
+                android:id="@+id/btn_bemyeye"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/bemyeye"
+                android:text="Be My Eye"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/btn_third_app"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:drawableTop="@drawable/unknown"
+                android:text="Sound Amplifier"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"/>
+
+        </GridLayout>
+
+<!--
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:text="Log out    "
+            android:drawableRight="@drawable/logout"
+            android:layout_gravity="end"
+            android:background="#FF0000"/> -->
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

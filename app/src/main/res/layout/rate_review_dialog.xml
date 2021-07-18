@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:id="@+id/iv_cancek"
+                android:src="@drawable/ic_baseline_cancel_24"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Rate PWD Place"
+                android:textColor="@color/blue"
+                android:gravity="center_horizontal"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <RatingBar
+                    android:id="@+id/ratingbar"
+                    android:layout_width="match_parent"
+                    style="@style/Widget.AppCompat.RatingBar"
+                    android:numStars="5"
+                    android:rating="5"
+                    android:layout_margin="20dp"
+                    android:layout_height="wrap_content">
+
+                </RatingBar>
+
+                <Button
+                    android:id="@+id/btn_rating_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

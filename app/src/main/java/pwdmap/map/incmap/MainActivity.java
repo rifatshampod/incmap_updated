@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 //                                    startActivity(homeintent);
 //                                    finish();
 //                                }else{
-                                    Intent homeintent = new Intent(MainActivity.this, Onboarding.class);
+                                    Intent homeintent = new Intent(MainActivity.this, bottomNavigationActivity.class);
                                     startActivity(homeintent);
                                     finish();
                                // }
